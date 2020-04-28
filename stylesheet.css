@@ -1,0 +1,230 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.header{
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  width:100%;
+  position:fixed;
+  z-index:10;
+}
+
+.header-contents{
+  width:1170px;
+  margin:0 auto;
+  height:65px;
+  line-height:65px;
+}
+
+
+.header-contents-logo{
+  float:left;
+  margin:20px 0px;
+}
+
+.header-contents-logo img{
+  width:124px;
+}
+
+.header-contents-login {
+  float:right;
+  color:white;
+  background-color:rgba(255,255,255,0.3);
+  padding-right:25px ;
+  padding-left:25px;
+  transition:all 0.5s;
+}
+
+.header-contents-login:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+
+.top{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  width:100%;
+  background-size:cover;
+}
+
+.top-contents{
+  padding:180px 0px 100px 0px;
+}
+.top-contents-words {
+  color:white;
+  opacity:0.7;
+  text-align:center;
+
+}
+
+.top-contents-words h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+}
+.top-contents-btn{
+  text-align:center;
+  margin-top:30px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+.top-contents-btn a{
+  display:inline-block;
+  color:white;
+  padding:8px 24px;
+  border-radius:4px;
+  opacity:0.8;
+}
+
+.top-contents-btn p{
+  color:white;
+  opacity:0.7;
+  margin:15px 0px;
+}
+
+.top-contents-btn-new{
+  background-color:#239b76;
+}
+
+.top-contents-btn-facebook{
+  background-color:#3b5998;
+
+}
+
+.top-contents-btn-twitter{
+  background-color:#55acee;
+  margin-left:10px;
+}
+
+.wrapper{
+  background-color:#f7f7f7;
+  height:580px;
+
+}
+.main{
+  width:1170px;
+  margin:0px auto;
+
+
+}
+
+.main-title{
+  padding-top:80px;
+  text-align:center;
+  color:#5f5d60;
+}
+
+.main-lessons{
+  margin-top:50px;
+}
+
+.main-lessons-htmlcss, .main-lessons-jquery, .main-lessons-ruby, .main-lessons-php{
+  float:left;
+  width:25%;
+  position:relative;
+  text-align:center;
+
+}
+
+
+.main-lessons-htmlcss-logo p{
+  position:absolute;
+  top:88px;
+  left:96.65px;
+  color:white;
+}
+
+.main-lessons-jquery-logo p{
+  position:absolute;
+  top:88px;
+  left:120.25px;
+  color:white;
+}
+
+.main-lessons-ruby-logo p{
+  position:absolute;
+  top:88px;
+  left:126.65px;
+  color:white;
+}
+
+.main-lessons-php-logo p{
+  position:absolute;
+  top:88px;
+  left:130.65px;
+  color:white;
+}
+
+.main-lessons-htmlcss-exp, .main-lessons-jquery-exp, .main-lessons-ruby-exp, .main-lessons-php-exp{
+  width:80%;
+  margin:15px auto 0px auto;
+  font-size:13px;
+  color:#b3bab5;
+}
+
+.message{
+  text-align:center;
+}
+.message-title{
+  margin-top:80px;
+
+}
+
+.message-title-button{
+  background-color:#5dca88;
+  opacity:0.8;
+  color:white;
+  display:inline-block;
+  padding:15px 40px;
+  margin:50px 0px 80px 0px;
+  border-radius:4px;
+  box-shadow:0px 7px 0px 0px rgba(26,121,64,0.8);
+}
+
+.message-title-button:hover{
+  opacity:1;
+}
+
+.message-title-button:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.message-title h2 , .message-title h3{
+  font-weight:normal;
+}
+
+.footer{
+  border-top:solid 1px #eee;
+}
+.footer-contents{
+  width:1170px;
+  margin:30px auto;
+  color:#b3aeb5;
+  font-size:12px;
+
+}
+
+.footer-contents img{
+  width:124px;
+}
